@@ -1,1 +1,1 @@
-In this repo you find several of my config files
+In this repo you will find several of my config files
