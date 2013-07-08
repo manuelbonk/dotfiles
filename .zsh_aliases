@@ -13,11 +13,10 @@ alias lc='wc -l'
 alias ..='cd ..'
 alias cx='chmod +x'
 alias pdf='evince'
-alias grep='grep -i'
 alias free='free -ms 1'
 
 # grep
-alias grep='grep --color=auto'
+alias grep='grep -i --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
@@ -25,7 +24,7 @@ alias egrep='egrep --color=auto'
 alias lock='xscreensaver-command --lock'
 
 # launcher
-alias chromium='(chromium > /dev/null &)'
+alias chromium='(chromium&)'
 alias spotify='(spotify&)'
 alias vbox='(virtualbox&)'
 alias skype='(skype&)'
