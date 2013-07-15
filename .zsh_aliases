@@ -26,5 +26,6 @@ alias lock='xscreensaver-command --lock'
 # launcher
 alias chromium='(chromium&)'
 alias spotify='(spotify&)'
-alias vbox='(virtualbox&)'
 alias skype='(skype&)'
+
+alias please='sudo'

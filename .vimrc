@@ -56,7 +56,8 @@ nnoremap <silent> <C-w> :tabclose<CR>
 nnoremap <space> za
 
 set cul
-hi CursorLine term=none cterm=none ctermbg=4  
+hi CursorLine term=none ctermbg= gray ctermfg=black
+highlight Cursor guifg=white guibg=black
 
 filetype plugin indent on
 syntax on
