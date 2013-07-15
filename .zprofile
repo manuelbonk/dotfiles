@@ -1,6 +1,7 @@
 echo "running <.zprofile>"
 echo "shell: $SHELL"
 
+VISUAL=vim
 EDITOR=vim
 echo "editor: $EDITOR"
 PATH=$PATH:/home/manuel/Downloads/.dropbox-dist
