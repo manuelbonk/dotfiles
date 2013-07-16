@@ -41,3 +41,10 @@ alias pacrep='pacman -Si'              # Display information about a given packa
 alias pacreps='pacman -Ss'             # Search for package(s) in the repositories
 alias pacloc='pacman -Qi'              # Display information about a given package in the local database
 alias paclocs='pacman -Qs'             # Search for package(s) in the local database
+
+# apt
+alias inst='sudo apt-get install'      # Install specific package(s) from the repositories
+alias srch='sudo apt-cache search'     # Search for package(s) in the repositories
+alias upd='sudo apt-get update'
+alias upg='sudo apt-get upgrade'
+alias dupg='sudo apt-get dist-upgrade'
