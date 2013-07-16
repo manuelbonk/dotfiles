@@ -27,6 +27,7 @@ alias lock='xscreensaver-command --lock'
 alias chromium='(chromium&)'
 alias spotify='(spotify&)'
 alias skype='(skype&)'
+alias gajim='(gajim&)'
 
 alias please='sudo'
 
