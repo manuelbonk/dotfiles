@@ -28,6 +28,7 @@ alias chromium='(chromium&)'
 alias spotify='(spotify&)'
 alias skype='(skype&)'
 alias gajim='(gajim&)'
+alias hotot='(hotot-qt&)'
 
 alias please='sudo'
 
