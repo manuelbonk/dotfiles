@@ -23,13 +23,6 @@ alias egrep='egrep --color=auto'
 # alias cdvirt='cd /var/www/virtual/bonkii/'
 alias lock='xscreensaver-command --lock'
 
-# launcher
-alias chromium='(chromium&)'
-alias spotify='(spotify&)'
-alias skype='(skype&)'
-alias gajim='(gajim&)'
-alias hotot='(hotot-qt&)'
-
 alias please='sudo'
 
 # pacman
