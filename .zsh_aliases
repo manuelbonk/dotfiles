@@ -42,3 +42,5 @@ alias srch='sudo apt-cache search'     # Search for package(s) in the repositori
 alias upd='sudo apt-get update'
 alias upg='sudo apt-get upgrade'
 alias dupg='sudo apt-get dist-upgrade'
+
+alias less='vim -R'

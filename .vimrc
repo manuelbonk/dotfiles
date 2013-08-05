@@ -1,63 +1,69 @@
-set mouse=a
+" set mouse=a
 
 " Jump to files directory
-autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
+" autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
 
-set nocompatible
+" set nocompatible
 
-set showcmd
+" set showcmd
 
-set foldmethod=marker
+" set foldmethod=marker
 
-filetype on
-filetype plugin on
-syntax enable
-set grepprg=grep\ -nH\ $*
+"" filetype on
+"" filetype plugin on
+"" syntax enable
+"set grepprg=grep\ -nH\ $*
 
-set autoindent
+"set autoindent
 
-set expandtab
-set smarttab
+"set expandtab
+"set smarttab
 
-set shiftwidth=4
-set softtabstop=4
+"set shiftwidth=4
+"set softtabstop=4
 
-set wildmenu
-set wildmode=list:longest,full
+"set wildmenu
+"set wildmode=list:longest,full
 
-set backspace=2
+"set backspace=2
 
-set number
+"set number
 
-set ignorecase
-set smartcase
+"set ignorecase
+"set smartcase
 
-inoremap jj <Esc>
-nnoremap JJJJ <Nop>
+"inoremap jj <Esc>
+"nnoremap JJJJ <Nop>
 
-set incsearch
-set hlsearch
+"set incsearch
+"set hlsearch
 
-hi LineNr ctermfg=darkgrey ctermbg=black
+"hi LineNr ctermfg=darkgrey ctermbg=black
 
-highlight MatchParen ctermbg=yellow
+"highlight MatchParen ctermbg=yellow
 
-" Next Tab
-nnoremap <silent> <C-S-Right> :tabnext<CR>
+"" Next Tab
+"nnoremap <silent> <C-S-Right> :tabnext<CR>
 
-" Previous Tab
-nnoremap <silent> <C-S-Left> :tabprevious<CR>
+"" Previous Tab
+"nnoremap <silent> <C-S-Left> :tabprevious<CR>
 
-" New Tab
-nnoremap <silent> <C-t> :tabnew<CR>
-nnoremap <silent> <C-w> :tabclose<CR>
+"" New Tab
+"nnoremap <silent> <C-t> :tabnew<CR>
+"nnoremap <silent> <C-w> :tabclose<CR>
 
-" Space will toggle folds!
-nnoremap <space> za
+"" Space will toggle folds!
+"nnoremap <space> za
 
-set cul
-hi CursorLine term=none ctermbg= gray ctermfg=black
-highlight Cursor guifg=white guibg=black
+"set cul
+"hi CursorLine term=none ctermbg= gray ctermfg=black
+"highlight Cursor guifg=white guibg=black
 
-filetype plugin indent on
+"filetype plugin indent on
+"syntax on
+
+" pathogen
+execute pathogen#infect()
+execute pathogen#helptags()
 syntax on
+filetype plugin indent on

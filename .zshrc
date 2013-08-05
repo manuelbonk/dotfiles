@@ -1,36 +1,54 @@
-#
-# .zshrc is sourced in interactive shells.
-# It should contain commands to set up aliases,
-# functions, options, key bindings, etc.
-#
+echo "running <.zshrc>"
+# Path to your oh-my-zsh configuration.
+ZSH=/home/manuel/.oh-my-zsh
 
-autoload -U compinit
-compinit
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="robbyrussell"
 
-#allow tab completion in the middle of a word
-setopt COMPLETE_IN_WORD
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-## keep background processes at full speed
-setopt NOBGNICE
-## restart running processes on exit
-#setopt HUP
+# Set to this to use case-sensitive completion
+# CASE_SENSITIVE="true"
 
-## history
-#setopt APPEND_HISTORY
-## for sharing history between zsh processes
-#setopt INC_APPEND_HISTORY
-#setopt SHARE_HISTORY
+# Comment this out to disable bi-weekly auto-update checks
+# DISABLE_AUTO_UPDATE="true"
 
-## never ever beep ever
-setopt NO_BEEP
+# Uncomment to change how often before auto-updates occur? (in days)
+# export UPDATE_ZSH_DAYS=13
 
-## automatically decide when to page a list of completions
-#LISTMAX=0
+# Uncomment following line if you want to disable colors in ls
+# DISABLE_LS_COLORS="true"
 
-## disable mail checking
-#MAILCHECK=0
+# Uncomment following line if you want to disable autosetting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-autoload -U colors
-colors
+# Uncomment following line if you want to disable command autocorrection
+# DISABLE_CORRECTION="true"
+
+# Uncomment following line if you want red dots to be displayed while waiting for completion
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment following line if you want to disable marking untracked files under
+# VCS as dirty. This makes repository status check for large repositories much,
+# much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(git extract) 
+
+source $ZSH/oh-my-zsh.sh
+
+# Customize to your needs...
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist
+
 PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[white]%}> %{$reset_color%}"
 
+
+# feh --bg-fill /home/manuel/pictures/wallpapers/aperture.jpg
