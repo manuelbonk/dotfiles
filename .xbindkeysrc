@@ -1,0 +1,20 @@
+# toggle mute
+"amixer sset Master toggle"
+   m:0x0 + c:121
+
+# decrease volume
+"amixer set Master playback 1-"
+   m:0x0 + c:122
+
+# increase volume
+"amixer set Master playback 1+"
+   m:0x0 + c:123
+
+# lock screen
+"xscreensaver-command --lock"
+   m:0x0 + c:156
+
+# toggle mic
+"amixer set Capture 100% toggle"
+   m:0x0 + c:198
+
