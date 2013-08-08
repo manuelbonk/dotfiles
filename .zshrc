@@ -52,3 +52,7 @@ PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[
 
 
 # feh --bg-fill /home/manuel/pictures/wallpapers/aperture.jpg
+
+export PYTHONPATH=/usr/lib/python3.3/site-packages
+
+

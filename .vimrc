@@ -67,3 +67,14 @@ execute pathogen#infect()
 execute pathogen#helptags()
 syntax on
 filetype plugin indent on
+
+set t_Co=256
+
+" Powerline
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+
+" doesn't work
+" let g:Powerline_symbols = 'fancy'
+
