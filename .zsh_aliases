@@ -8,6 +8,7 @@ alias mv='mv -v'
 
 alias la='ls -a'
 alias ls='ls -oxhCFl --color=auto'
+alias sl='ls'
 
 alias lc='wc -l'
 alias ..='cd ..'
