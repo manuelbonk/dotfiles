@@ -49,3 +49,6 @@ alias less='vim -R'
 
 # ssh
 alias sshus='ssh bonkii@lynx.uberspace.de'
+alias rmvunused='sudo pacman -Rns $(pacman -Qqtd)' # remove unused packages
+alias ddprogress='while true; do sudo pkill -USR1 dd; sleep 1; done'
+alias cf='echo $(($(ls -l | grep -v ^d| wc -l)-1))' # count files in a directory

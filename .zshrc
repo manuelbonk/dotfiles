@@ -3,8 +3,7 @@ echo "running <.zshrc>"
 ZSH=/home/manuel/.oh-my-zsh
 
 # Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
+# Look in ~/.oh-my-zsh/themes/ # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
@@ -49,9 +48,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist
 
 PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[white]%}> %{$reset_color%}"
-
-
-# feh --bg-fill /home/manuel/pictures/wallpapers/aperture.jpg
 
 export PYTHONPATH=/usr/lib/python3.3/site-packages
 
