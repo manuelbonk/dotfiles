@@ -2,6 +2,7 @@
 alias df='df -h'
 alias du='du -h'
 alias cp='cp -v'
+alias copy='rsync -r -v --progress'
 alias ln='ln -v'
 alias rm='rm -v'
 alias mv='mv -v'
