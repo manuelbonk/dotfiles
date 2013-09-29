@@ -45,7 +45,12 @@ alias upd='sudo apt-get update'
 alias upg='sudo apt-get upgrade'
 alias dupg='sudo apt-get dist-upgrade'
 
+<<<<<<< HEAD
 # alias less='vim -R'
+=======
+alias less='vim -R'
+alias x='extract'
+>>>>>>> 72f420fd26ecd32f5b278156128ac70422085237
 
 # ssh
 alias sshus='ssh bonkii@lynx.uberspace.de'
