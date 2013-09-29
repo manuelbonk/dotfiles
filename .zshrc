@@ -5,7 +5,10 @@ ZSH=/home/manuel/.oh-my-zsh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/ # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="minimal"
+echo "theme: <$ZSH_THEME>"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -51,4 +54,10 @@ PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[
 
 export PYTHONPATH=/usr/lib/python3.3/site-packages
 
+# enables zmv
+autoload -U zmv
+
+# syntax highlighting in less
+export LESSOPEN="|/usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
 
