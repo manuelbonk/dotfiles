@@ -89,3 +89,5 @@ nnoremap <F2> :set nonumber!<CR>
 set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
+
+noremap <F3> :Autoformat <CR><CR>
