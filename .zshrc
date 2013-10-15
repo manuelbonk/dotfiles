@@ -3,10 +3,12 @@ echo "running <.zshrc>"
 ZSH=/root/.oh-my-zsh
 
 # Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
+# Look in ~/.oh-my-zsh/themes/ # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="minimal"
+echo "theme: <$ZSH_THEME>"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -50,9 +52,18 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/Downloads
 
 PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[white]%}> %{$reset_color%}"
 
-
-# feh --bg-fill /home/manuel/pictures/wallpapers/aperture.jpg
-
 export PYTHONPATH=/usr/lib/python3.3/site-packages
 
+# enables zmv
+autoload -U zmv
 
+# syntax highlighting in less
+export LESSOPEN="|/usr/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
+
+
+export PERL_LOCAL_LIB_ROOT="$PERL_LOCAL_LIB_ROOT:/home/manuel/perl5";
+export PERL_MB_OPT="--install_base /home/manuel/perl5";
+export PERL_MM_OPT="INSTALL_BASE=/home/manuel/perl5";
+export PERL5LIB="/home/manuel/perl5/lib/perl5:$PERL5LIB";
+export PATH="/home/manuel/perl5/bin:$PATH";
