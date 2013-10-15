@@ -1,8 +1,8 @@
 echo "running <.zprofile>"
 echo "shell: $SHELL"
 
-VISUAL=vim
-EDITOR=vim
+export VISUAL=vim
+export EDITOR=vim
 echo "editor: $EDITOR"
 PATH=$PATH:/home/manuel/Downloads/.dropbox-dist
 if [ -f ~/.zsh_aliases ]; then

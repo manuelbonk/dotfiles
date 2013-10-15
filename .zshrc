@@ -1,6 +1,6 @@
 echo "running <.zshrc>"
 # Path to your oh-my-zsh configuration.
-ZSH=/home/manuel/.oh-my-zsh
+ZSH=/root/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
