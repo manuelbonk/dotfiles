@@ -7,7 +7,8 @@ if [ -n "$DISPLAY" ]; then
 	export BROWSER=chromium
 	echo "browser: $BROWSER"
 fi
-EDITOR=vim
+export VISUAL=vim
+export EDITOR=vim
 echo "editor: $EDITOR"
 
 PATH=$PATH:/home/manuel/Downloads/.dropbox-dist:/home/manuel/dev/scripts/
