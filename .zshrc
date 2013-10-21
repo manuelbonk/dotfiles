@@ -1,6 +1,6 @@
 echo "running <.zshrc>"
 # Path to your oh-my-zsh configuration.
-ZSH=/root/.oh-my-zsh
+ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/ # Optionally, if you set this to "random", it'll load a random theme each
