@@ -67,3 +67,5 @@ export PERL_MB_OPT="--install_base /home/manuel/perl5";
 export PERL_MM_OPT="INSTALL_BASE=/home/manuel/perl5";
 export PERL5LIB="/home/manuel/perl5/lib/perl5:$PERL5LIB";
 export PATH="/home/manuel/perl5/bin:$PATH";
+
+. ~/.zsh_aliases
