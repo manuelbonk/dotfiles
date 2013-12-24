@@ -48,7 +48,7 @@ plugins=(git extract)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/dev/scripts/:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist:/home/manuel/.screenlayout/:/home/manuel/.genymotion/
 
 PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[white]%}> %{$reset_color%}"
 
@@ -69,3 +69,6 @@ export PERL5LIB="/home/manuel/perl5/lib/perl5:$PERL5LIB";
 export PATH="/home/manuel/perl5/bin:$PATH";
 
 . ~/.zsh_aliases
+
+doge
+source /home/manuel/.fzf.zsh
