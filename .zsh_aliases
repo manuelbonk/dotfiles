@@ -14,7 +14,8 @@ alias sl='ls'
 alias lc='wc -l'
 alias ..='cd ..'
 alias cx='chmod +x'
-alias pdf='evince'
+alias pdf='okular'
+# alias pdf='evince'
 alias free='free -ms 1'
 
 # grep

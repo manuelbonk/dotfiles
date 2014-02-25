@@ -1,6 +1,6 @@
 echo "running <.zshrc>"
 # Path to your oh-my-zsh configuration.
-ZSH=~/.oh-my-zsh
+ZSH=/home/manuel/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/ # Optionally, if you set this to "random", it'll load a random theme each
@@ -48,9 +48,9 @@ plugins=(git extract)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/dev/scripts/:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist:/home/manuel/.screenlayout/:/home/manuel/.genymotion/
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/manuel/dev/scripts/:/home/manuel/Downloads/tor-browser_en-US:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/manuel/Downloads/.dropbox-dist:/home/manuel/.screenlayout/:/home/manuel/.genymotion/:~/.gem/ruby/2.0.0/bin/
 
-PS1="%{$fg[red]%}%n %{$reset_color%}at %{$fg[blue]%}%m %{$reset_color%}in %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[white]%}> %{$reset_color%}"
+PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}:%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%} > %{$reset_color%}"
 
 export PYTHONPATH=/usr/lib/python3.3/site-packages
 
@@ -70,5 +70,4 @@ export PATH="/home/manuel/perl5/bin:$PATH";
 
 . ~/.zsh_aliases
 
-doge
-source /home/manuel/.fzf.zsh
+# doge
