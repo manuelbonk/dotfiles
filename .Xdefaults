@@ -3,36 +3,54 @@ URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 URxvt.scrollBar: false
 
-URxvt*font:               -artwiz-lime-medium-r-normal-*-10-110-75-75-m-50-iso8859-1
-URxvt*boldFont:           -artwiz-lime-medium-r-normal-*-10-110-75-75-m-50-iso8859-1
+URxvt*font: xft:Source Code Pro :pixelsize=11
+URxvt*boldFont: xft:Source Code Pro Semibold:pixelsize=11
 
-URxvt*background:        #333333
-URxvt*foreground:        #cccccc
-URxvt*cursorColor:       #999999
-URxvt*colorBD:           #ffffff
-URxvt*colorUL:           #ffff99
+!
+! invisibone by baskerville
+!
+! vim: set ft=xdefaults:
 
-!BLK
-URxvt*color0:           #666666
-URxvt*color8:           #999999
+!(235, 248)
+URxvt.background: #262626
+URxvt.foreground: #A8A8A8
+
+!(252)
+URxvt.colorBD:    #D0D0D0
+URxvt.colorIT:    #D0D0D0
+URxvt.colorUL:    #D0D0D0
+
+!BLK (236, 243)
+URxvt.color0:     #303030
+URxvt.color8:     #767676
+
+!WHT (252, 231)
+URxvt.color7:     #D0D0D0
+URxvt.color15:    #FFFFFF
+
 !RED
-URxvt*color1:          #CC6699
-URxvt*color9:	        #FF99CC
+URxvt.color1:     #EA1010
+URxvt.color9:     #FFA7DA
+
 !GRN
-URxvt*color2:           #99CC66
-URxvt*color10:         #CCFF99
-!YEL
-URxvt*color3:          #CC9966
-URxvt*color11:         #FFCC99
+URxvt.color2:     #6D9E3F
+URxvt.color10:    #A3D572
+
 !BLU
-URxvt*color4:          #6699CC
-URxvt*color12:         #99CCFF
-!MAG
-URxvt*color5:           #9966CC
-URxvt*color13:          #CC99FF
+URxvt.color4:     #6095C5
+URxvt.color12:    #98CBFE
+
+!YEL
+URxvt.color3:     #B58858
+URxvt.color11:    #EFBD8B
+
 !CYN
-URxvt*color6:          #66CC99
-URxvt*color14:         #99FFCC
-!WHT
-URxvt*color7:          #CCCCCC
-URxvt*color15:         #FFFFFF
+URxvt.color6:     #3BA275
+URxvt.color14:    #75DAA9
+
+!MAG
+URxvt.color5:     #AC7BDE
+URxvt.color13:    #E5B0FF
+
+! hide pointer while typing
+URxvt.pointerBlank: true
