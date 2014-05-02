@@ -19,11 +19,11 @@ set ruler
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+set noexpandtab
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set wrap
 
 " Show trailing spaces and highlight hard tabs
 set list listchars=tab:»·,trail:·
