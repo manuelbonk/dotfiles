@@ -1,3 +1,4 @@
+echo "running <prompt>"
 # autoload -U add-zsh-hook
 autoload -Uz vcs_info
 

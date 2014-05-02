@@ -1,4 +1,3 @@
-alsi
 echo "running <.zprofile>"
 echo "shell: $SHELL"
 
@@ -11,12 +10,9 @@ export VISUAL=vim
 export EDITOR=vim
 echo "editor: $EDITOR"
 
-PATH=$PATH:/home/manuel/Downloads/.dropbox-dist:/home/manuel/dev/scripts/
+PATH=$PATH:/home/manuel/Downloads/.dropbox-dist:/home/m/dev/scripts/
 # echo $PATH
-setterm -blank 0 -powerdown off
-if [ -f ~/.zsh_aliases ]; then
-	echo "found <.zsh_aliases>"
-	. ~/.zsh_aliases
+# setterm -blank 0 -powerdown off
 fi
 
 # if [ -e /usr/share/terminfo/x/xterm-256color ]; then

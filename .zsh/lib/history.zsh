@@ -1,3 +1,4 @@
+echo "running <history>"
 ## Command history configuration
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000

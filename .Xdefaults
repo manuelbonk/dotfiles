@@ -3,8 +3,8 @@ URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 URxvt.scrollBar: false
 
-URxvt*font: xft:Source Code Pro :pixelsize=11
-URxvt*boldFont: xft:Source Code Pro Semibold:pixelsize=11
+URxvt*font: xft:Monaco:pixelsize=11
+URxvt*boldFont: xft:Monaco Bold:pixelsize=11
 
 !
 ! invisibone by baskerville

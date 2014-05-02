@@ -1,3 +1,4 @@
+echo "running <keybindings>"
 # TODO: Explain what some of this does..
 
 bindkey -e

@@ -1,7 +1,9 @@
+echo "running <corrections>"
 setopt correct_all
 
 alias cap='nocorrect cap'
 alias man='nocorrect man'
+alias sudo='nocorrect sudo'
 alias tree='nocorrect tree'
 alias thor='nocorrect thor'
 alias mv='nocorrect mv'

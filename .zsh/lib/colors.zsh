@@ -1,3 +1,4 @@
+echo "running <colors>"
 typeset -Ag FX FG BG
 
 LSCOLORS="exfxcxdxbxegedabagacad"

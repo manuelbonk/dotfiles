@@ -1,9 +1,0 @@
-xterm*faceName: Source Code Pro:antialias=True:pixelsize=12
-xterm*scaleHeight: 0.9
-xterm*loginShell: true
-xterm*saveLines: 200
-xterm*termName: xterm-color
-xterm*background: rgb:00/00/00
-xterm*foreground: rgb:00/cc/00
-xterm*colorBDMode: true
-xterm*colorBD: rgb:fc/fc/fc
