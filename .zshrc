@@ -8,8 +8,6 @@ for config_file ($ZSH/lib/*.zsh) source $config_file
 # Load and run compinit
 autoload -U compinit
 compinit -i
-PS1="%{$fg[white]%}┌─[%{$reset_color%}%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}]─[%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%}]%{$reset_color%}
-%{$fg[white]%}└──╼ %{$reset_color%}"
 PATH=$PATH:/home/m/dev/scripts/:/home/m/dev/scripts:/home/m/.screenlayout
 
 set -o vi
