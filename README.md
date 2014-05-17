@@ -1,9 +1,4 @@
 just some config files
-=======
-dotfiles
-====
-
-just some config files
 
 ## Vim
 
