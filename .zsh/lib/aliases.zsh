@@ -1,7 +1,4 @@
 alias ...='cd ../..'
-# alias vim='nocorrect vim'
-# alias sudo='nocorrect sudo'
-
 # verbose / human-readable
 alias df='df -h'
 alias du='du -h'
@@ -20,9 +17,9 @@ alias sl='ls'
 alias lc='wc -l'
 alias ..='cd ..'
 alias cx='chmod +x'
+<<<<<<< HEAD
 # alias pdf='okular'
 alias pdf='evince'
-alias free='free -ms 1'
 
 # grep
 alias grep='grep -i --color=auto'
@@ -39,10 +36,16 @@ alias pacrep='pacman -Si'              # Display information about a given packa
 alias pacreps='pacman -Ss'             # Search for package(s) in the repositories
 
 alias rmvunused='sudo pacman -Rns $(pacman -Qqtd)' # remove unused packages
-# alias ddprogress='while true; do sudo pkill -USR1 dd; sleep 1; done'
 alias cf='echo $(($(ls -l | grep -v ^d| wc -l)-1))' # count files in a directory
 
 alias sshuttle='sshuttle --dns -vvr m@n.zfix.net 0/0'
 
 alias nfx='ssh -ND 11337 m@n.zfix.net'
 alias tsb='sudo tlp-stat -b'
+
+# apt
+alias inst='sudo apt-get install'      # Install specific package(s) from the repositories
+alias srch='sudo apt-cache search'     # Search for package(s) in the repositories
+alias upd='sudo apt-get update'
+alias upg='sudo apt-get upgrade'
+alias dupg='sudo apt-get dist-upgrade'

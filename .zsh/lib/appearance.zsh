@@ -15,5 +15,3 @@ else
     SCREEN_NO=""
 fi
 
-# Apply theming defaults
-PS1="%n@%m:%~%# "
