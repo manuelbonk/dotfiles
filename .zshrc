@@ -11,7 +11,7 @@ compinit -i
 
 autoload zmv
 
-PATH=$PATH:/home/m/dev/scripts/:/home/m/dev/scripts:/home/m/.screenlayout
+PATH=$PATH:/home/m/dev/scripts:/home/m/.screenlayout
 
 set -o vi
 
