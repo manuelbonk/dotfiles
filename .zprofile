@@ -4,7 +4,6 @@ if [ -n "$DISPLAY" ]; then
 fi
 export VISUAL=vim
 export EDITOR=vim
-echo "editor: $EDITOR"
 
 PATH=$PATH:/home/manuel/Downloads/.dropbox-dist:/home/manuel/dev/scripts/
 setterm -blank 0 -powerdown off
