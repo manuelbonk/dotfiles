@@ -8,6 +8,9 @@ for config_file ($ZSH/lib/*.zsh) source $config_file
 # Load and run compinit
 autoload -U compinit
 compinit -i
+
+autoload zmv
+
 PATH=$PATH:/home/m/dev/scripts/:/home/m/dev/scripts:/home/m/.screenlayout
 
 set -o vi
@@ -33,5 +36,18 @@ x () {
    fi
 }
 
+man() {
+    env LESS_TERMCAP_mb=$'\E[01;31m' \
+    LESS_TERMCAP_md=$'\E[01;38;5;74m' \
+    LESS_TERMCAP_me=$'\E[0m' \
+    LESS_TERMCAP_se=$'\E[0m' \
+    LESS_TERMCAP_so=$'\E[38;5;246m' \
+    LESS_TERMCAP_ue=$'\E[0m' \
+    LESS_TERMCAP_us=$'\E[04;38;5;146m' \
+    man "$@"
+}
+
 PS1="%{$fg[white]%}┌─[%{$reset_color%}%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}]─[%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%}]%{$reset_color%}
 %{$fg[white]%}└──╼ %{$reset_color%}"
+
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
