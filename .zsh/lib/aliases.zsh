@@ -43,3 +43,5 @@ alias sca'sudo systemctl start'
 alias sco'sudo systemctl stop'
 alias sce'sudo systemctl enable'
 alias scd'sudo systemctl disable'
+
+alias d='date +"%Y-%m-%d"'

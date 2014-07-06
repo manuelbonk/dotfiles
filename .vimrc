@@ -1,5 +1,5 @@
-execute pathogen#infect()
-execute pathogen#helptags()
+" execute pathogen#infect()
+" execute pathogen#helptags()
 syntax on
 filetype plugin indent on
 
@@ -23,7 +23,7 @@ nnoremap <F2> :set nonumber!<CR>
 " set theme solarized
 set background=dark
 colorscheme solarized
-call togglebg#map("<F5>")
+" call togglebg#map("<F5>")
 
 noremap <F3> :Autoformat <CR><CR>
 

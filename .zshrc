@@ -2,6 +2,7 @@ export ZSH=~/.zsh
 
 export EDITOR="vim"
 export VISUAL="vim"
+export BROWSER="chromium"
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
@@ -27,7 +28,7 @@ x () {
          *.tar)      tar xvf $1      ;;
          *.tbz2)      tar xvjf $1      ;;
          *.tgz)      tar xvzf $1      ;;
-         *.zip)      unzip -v $1      ;;
+         *.zip)      unzip $1      ;;
          *.Z)      uncompress $1   ;;
          *)         echo "'$1' cannot be extracted via extract()" ;;
       esac
@@ -47,7 +48,11 @@ man() {
     man "$@"
 }
 
-PS1="%{$fg[white]%}┌─[%{$reset_color%}%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}]─[%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%}]%{$reset_color%}
+# stock prompt
+# PS1="%{$fg[red]%}%n%{$reset_color%}%{$fg[white]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%} %{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%} > %{$reset_color%}"
+
+# hipster prompt
+PS1="%{$fg[white]%}┌─[%{$reset_color%}%{$fg[red]%}%n%{$reset_color%}%{$fg[white]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}]─[%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%}]%{$reset_color%}
 %{$fg[white]%}└──╼ %{$reset_color%}"
 
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx

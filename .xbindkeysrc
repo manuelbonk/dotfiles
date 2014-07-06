@@ -1,23 +1,27 @@
 # toggle mute
 # "amixer sset Master toggle"
-"mute_toggle"
+#"mute_toggle"
+"/usr/bin/pulseaudio-ctl mute"
     m:0x0 + c:121
 
 # decrease volume
 # "amixer set Master playback 1-"
-"vol_down"
+#"vol_down"
+"/usr/bin/pulseaudio-ctl down"
     m:0x0 + c:122
 
 # increase volume
 # "amixer set Master playback 1+"
-"vol_up"
+#"vol_up"
+"/usr/bin/pulseaudio-ctl up"
     m:0x0 + c:123
 
 # lock screen
-"xscreensaver-command --lock"
-   m:0x0 + c:156
+#"xscreensaver-command --lock"
+#   m:0x0 + c:156
 
 # toggle mic
- "amixer set Capture 100% toggle"
+# "amixer set Capture 100% toggle"
+"/usr/bin/pulseaudio-ctl mute-input"
    m:0x0 + c:198
 

@@ -53,3 +53,10 @@ URxvt.color13:    #E5B0FF
 
 ! hide pointer while typing
 URxvt.pointerBlank: true
+! URxvt.letterSpace: -2
+!
+urxvt.depth: 8
+
+xterm*background: rgb:26/26/26
+xterm*foreground: rgb:A8/A8/A8
+xterm*faceName: Monaco:size=9:antialias=true
