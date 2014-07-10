@@ -3573,3 +3573,302 @@
 : 1404604806:0;ssh mrp01
 : 1404604813:0;cd dev/dotfiles
 : 1404604815:0;git add -A
+: 1404604817:0;git commit
+: 1404604830:0;git config --global user.email "m@bonk.io"
+: 1404604839:0;git config --global user.name "Manuel Bonk"
+: 1404604842:0;git commit
+: 1404604857:0;git push
+: 1404604894:0;vim .netrc
+: 1404604941:0;git push
+: 1404604974:0;shot
+: 1404604981:0;df
+: 1404604986:0;htop
+: 1404604988:0;flush
+: 1404604995:0;free
+: 1404605002:0;cd
+: 1404605004:0;mountdiary
+: 1404605827:0;vim .i3/config
+: 1404608975:0;cd .decrypted/Diary
+: 1404608976:0;vim 
+: 1404608979:0;lf
+: 1404608986:0;rm -rf \\
+: 1404608987:0;lf
+: 1404608989:0;vim toImport.txt
+: 1404611255:0;pacupg
+: 1404611260:0;yaourt -Syua
+: 1404611265:0;df
+: 1404611268:0;alsi
+: 1404611286:0;sudo ncdu /
+: 1404611291:0;htop
+: 1404611295:0;free
+: 1404611299:0;sudo flush
+: 1404611350:0;pacrem dunst
+: 1404611356:0;df
+: 1404611357:0;free
+: 1404611359:0;htop
+: 1404611369:0;killall dunst
+: 1404611372:0;free
+: 1404611479:0;wifi
+: 1404611481:0;sudo wifi off
+: 1404611615:0;htop
+: 1404614182:0;cd .decrypted
+: 1404614182:0;lf
+: 1404614184:0;cd Diary
+: 1404614184:0;lf
+: 1404614187:0;rm -rf \\
+: 1404614794:0;umntdiary
+: 1404614796:0;cd
+: 1404614797:0;umntdiary
+: 1404614798:0;df
+: 1404615200:0;alsi
+: 1404615242:0;htop
+: 1404615269:0;vim .zshrc
+: 1404615353:0;shot
+: 1404615377:0;sudo flush
+: 1404616578:0;ranger
+: 1404616867:0;sudo mount -t nfs mct:/srv/nfs4/hdd/ /mnt/mct/got
+: 1404616876:0;cd /mnt/mct/got
+: 1404616879:0;pg
+: 1404616883:0;man pg
+: 1404616887:0;lf
+: 1404616895:0;cd got
+: 1404616896:0;lf
+: 1404616901:0;cd conv/
+: 1404616902:0;lf
+: 1404616920:0;cd GoTS03
+: 1404616921:0;lf
+: 1404616924:0;..
+: 1404616930:0;umount /mnt/mct/got
+: 1404616931:0;..
+: 1404616938:0;sudo umount /mnt/mct/got
+: 1404616951:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404616956:0;cd /mnt/mct/got
+: 1404616957:0;lf
+: 1404616961:0;cd conv/GoTS03
+: 1404616962:0;lf
+: 1404616966:0;vlc Game.of.Thrones.S03E01.m4v
+: 1404616981:0;lf
+: 1404617320:0;lsblk
+: 1404617325:0;lsusb
+: 1404617327:0;lsblk
+: 1404617365:0;pacreps  kio-mtp
+: 1404617369:0;pacin  kio-mtp
+: 1404617387:0;pgmtoy4m
+: 1404617391:0;pacreps gmtp
+: 1404617396:0;yaourt -Ssa gmtp
+: 1404617401:0;yaourt -Sa gmtp
+: 1404617430:0;mtp-detect
+: 1404617431:0;sudo mtp-detect
+: 1404617527:0;lsblk
+: 1404617530:0;lsusb
+: 1404617554:0;sudo vim /etc/udev/rules.d/51-android.rules
+: 1404617662:0;udevadm control --reload
+: 1404617664:0;sudo udevadm control --reload
+: 1404617667:0;lsblk
+: 1404617670:0;lsusb
+: 1404617700:0;gmtp
+: 1404617708:0;sudo gmtp
+: 1404617747:0;lsblk
+: 1404617749:0;lsusb
+: 1404617756:0;pacrem gmtp
+: 1404617799:0;cd /mnt/mct/got/conv/GoTS03
+: 1404617800:0;ls
+: 1404617806:0;du
+: 1404617830:0;cp * ~/btsync/video
+: 1404617840:0;copy * ~/btsync/video
+: 1404618086:0;blkid
+: 1404618088:0;sudo blkid
+: 1404618220:0;htop
+: 1404618238:0;sudo modprobe vboxdrv
+: 1404618433:0;ln ~/Downloads/20140706\ MUCPMI\ Bonk\ B3GMUI\ 29E\ \(2\).pdf ~/btsync/everywhere
+: 1404618492:0;cd btsync
+: 1404618493:0;cd v
+: 1404618494:0;..
+: 1404618495:0;cd video
+: 1404618496:0;lf
+: 1404618510:0;mkdir -p Game\ of\ Thrones/Season\ 3
+: 1404618521:0;mv Game.of.Thrones.S03E* Game\ of\ Thrones/Season\ 3
+: 1404618524:0;cd Game\ of\ Thrones/Season\ 3
+: 1404618525:0;f
+: 1404618525:0;lf
+: 1404618670:0;cd btsync/video
+: 1404618671:0;lf
+: 1404618672:0;cd Battlestar\ Galactica\ \(2003\)/Season\ 1
+: 1404618673:0;lf
+: 1404618675:0;..
+: 1404618678:0;mv Season\ 1 Season\ 2
+: 1404618685:0;ssh mnas
+: 1404619710:0;ssh mct
+: 1404619712:0;ssh mnas
+: 1404619841:0;cd btsync/video
+: 1404619841:0;lf
+: 1404619842:0;du
+: 1404619846:0;cd Game\ of\ Thrones
+: 1404619846:0;ls
+: 1404619847:0;du
+: 1404619881:0;vnstat -l
+: 1404619890:0;vnstat -d
+: 1404619892:0;sudo vnstat -d
+: 1404619902:0;cd /var/lib/vnstat
+: 1404619902:0;lf
+: 1404619910:0;du enp7s0
+: 1404619910:0;lf
+: 1404619919:0;cat enp7s0
+: 1404619930:0;sudo mv enp7s0 eth0
+: 1404619934:0;sudo mv wlp6s0 wlan0
+: 1404619935:0;ls
+: 1404619939:0;sudo vnstat -d
+: 1404620449:0;sudo screen /dev/ttyUSB1 115200
+: 1404620460:0;sudo screen /dev/ttyUSB0 115200
+: 1404620483:0;ps aux | grep scree
+: 1404620492:0;sudo kill -9 19389
+: 1404620495:0;ps aux | grep scree
+: 1404620519:0;d
+: 1404620520:0;df
+: 1404620703:0;ps aux | grep scree
+: 1404620706:0;sudo killall screen
+: 1404620716:0;ps aux | grep scree
+: 1404661457:0;ranger
+: 1404662710:0;sudo shutdown 0
+: 1404947354:0;history
+: 1404947372:0;cat .zsh/history
+: 1404947388:0;cat .zsh/history | awk '{print $2}'
+: 1404947411:0;cat .zsh/history | awk '{print $2}' | sort |uniq -c | sort -rn|head -n10
+: 1404947437:0;cat .zsh/history | awk '{print $2}' | sort |uniq -c | sort -rn|
+: 1404947438:0;cat .zsh/history | awk '{print $2}' | sort |uniq -c | sort -rn
+: 1404947520:0;pacupg
+: 1404948436:0;yaourt -Syua
+: 1404950646:0;cd btsync/video
+: 1404950647:0;lf
+: 1404950651:0;rm -rf Seinfeld
+: 1404950657:0;cd Game\ of\ Thrones/Season\ 3
+: 1404950658:0;lf
+: 1404950811:0;du
+: 1404950813:0;df
+: 1404950830:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404950838:0;sudo mount -t nfs4 mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404950846:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404950879:0;pacin nfs-utils
+: 1404950886:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404950909:0;sudo modprobe nfs
+: 1404950911:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404950913:0;df
+: 1404950919:0;ssh mct
+: 1404950963:0;ssh mrp04
+: 1404950968:0;ping mrp04
+: 1404950999:0;df
+: 1404951001:0;lsblk
+: 1404951011:0;sudo gpa
+: 1404951013:0;sudo gparted
+: 1404951029:0;lsblk
+: 1404951032:0;lf
+: 1404951035:0;rm collectionCache.bnk
+: 1404951039:0;df
+: 1404951040:0;lsblk
+: 1404951043:0;ls
+: 1404951055:0;lsblk
+: 1404951147:0;showmount -e mct
+: 1404951159:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404951171:0;sudo reboot
+: 1404951219:0;lsblk
+: 1404951232:0;sudo mount -t nfs mct:/srv/nfs4/hdd/got /mnt/mct/got
+: 1404951243:0;sudo mount /dev/mmcblk0p5 /mnt/sd
+: 1404951249:0;ranger
+: 1404951319:0;cd /mnt/sd/srv/nfs
+: 1404951319:0;lf
+: 1404951321:0;cd cam
+: 1404951321:0;lf
+: 1404951362:0;rm -rf 2014-07-04_10.3*
+: 1404951364:0;sudo rm -rf 2014-07-04_10.3*
+: 1404951391:0;sudo rm -rf 2014-07-04_10.4{1*,2*,3*,4*,5*,6*}
+: 1404951398:0;sudo rm -rf 2014-07-04_10.40*
+: 1404951403:0;sudo rm -rf 2014-07-04_10.2*
+: 1404951413:0;sudo rm -rf 2014-07-04_10.1*
+: 1404951488:0;cd btsync/v
+: 1404951492:0;mkdir `d`
+: 1404951494:0;lf
+: 1404951518:0;copy * ~/btsync/v/`d`
+: 1404951529:0;lf
+: 1404951534:0;cd 2014-07-10
+: 1404951535:0;lf
+: 1404951536:0;du
+: 1404951544:0;sudo iotop
+: 1404951550:0;pacin iotop
+: 1404951557:0;sudo iotop
+: 1404951634:0;cd /mnt/sd/srv/http
+: 1404951636:0;..
+: 1404951637:0;cd nfs
+: 1404951638:0;du
+: 1404951644:0;cd btsync/v
+: 1404951645:0;du
+: 1404951746:0;cd 2014-07-10
+: 1404951747:0;d
+: 1404951748:0;du
+: 1404951754:0;cf
+: 1404951992:0;df
+: 1404951993:0;cf
+: 1404952175:0;htop
+: 1404955053:0;ranger
+: 1404955500:0;mountdiary
+: 1404955589:0;cd .config/gtk-3.0
+: 1404955590:0;lf
+: 1404955591:0;cat settings.ini
+: 1404955603:0;pacman -Qq | grep gtk
+: 1404955617:0;vim settings.ini
+: 1404955739:0;yaourt -Ssa flatstudio
+: 1404955791:0;pacreps cobalt
+: 1404955795:0;yaourt -Ssa cobalt
+: 1404956967:0;df
+: 1404956969:0;htop
+: 1404960050:0;df
+: 1404960061:0;cd /mnt/sd/srv/nfs/cam
+: 1404960061:0;ls
+: 1404960064:0;du 
+: 1404960066:0;rm -rf *
+: 1404960069:0;sudo rm -rf *
+: 1404960073:0;df
+: 1404960077:0;ncdu /mnt/sd
+: 1404960102:0;cd /mnt/sd/usr/share/nginx/html/cam
+: 1404960103:0;..
+: 1404960104:0;lf
+: 1404960108:0;rm -rf cam/*
+: 1404960111:0;sudo rm -rf cam/*
+: 1404960113:0;df
+: 1404960118:0;cd
+: 1404960121:0;umount /mnt/sd
+: 1404960123:0;sudo umount /mnt/sd
+: 1404961068:0;pacreps vimpager
+: 1404961072:0;pacin vimpager
+: 1404961076:0;lf
+: 1404961106:0;cat .i3status.conf|vimpager
+: 1404961113:0;whereis vimpager
+: 1404961118:0;less /usr/bin/vimpager
+: 1404962288:0;ranger
+: 1405005280:0;vim .i3/config
+: 1405005762:0;sudo modprobe vboxdrv
+: 1405005821:0;sudo vim /etc/modules-load.d/vboxdrv.conf
+: 1405006158:0;pacupg
+: 1405006186:0;pacreps mlt
+: 1405006192:0;rmvunused
+: 1405006196:0;df
+: 1405008050:0;yaourt -Syua
+: 1405008056:0;df
+: 1405008059:0;alsi
+: 1405008092:0;htop
+: 1405008106:0;alsi
+: 1405008161:0;vnstat -l
+: 1405008196:0;ssh u1
+: 1405008269:0;vim .i3/config
+: 1405008330:0;lf
+: 1405008352:0;htop
+: 1405008362:0;vim .i3/config
+: 1405008370:0;ranger
+: 1405008569:0;df
+: 1405008579:0;shot
+: 1405010578:0;cd dev/dotfiles
+: 1405010578:0;lf
+: 1405010580:0;cd .i3
+: 1405010580:0;lf
+: 1405010583:0;vim config
+: 1405010587:0;..
+: 1405010590:0;git add -A

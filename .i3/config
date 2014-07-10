@@ -20,7 +20,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-font pango:Monaco 9
+font pango:Monaco 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -189,11 +189,12 @@ bar {
 		statusline #cccccc
 #		statusline #808080
 		separator #404040
-#		separator #404040
 		#                  border  backgr  text
-		focused_workspace  #969696 #080808 #ffffff
+		focused_workspace  #080808 #080808 #ffffff
+#		focused_workspace  #969696 #080808 #ffffff
 		active_workspace   #404040 #080808 #a6a6de
-		inactive_workspace #404040 #080808 #808080
+		inactive_workspace #080808 #080808 #808080
+#		inactive_workspace #404040 #080808 #808080
 		urgent_workspace   #ea8484 #080808 #ffffff
 	}
 }
