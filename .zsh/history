@@ -3875,3 +3875,10 @@
 : 1405010592:0;git commit
 : 1405010637:0;vim .gitignore
 : 1405010649:0;git add -A
+: 1405010652:0;git commit 
+: 1405010670:0;git rm --cached
+: 1405010680:0;lf
+: 1405010716:0;git push
+: 1405010779:0;rm .zlogin
+: 1405010811:0;vim .zprofile
+: 1405010833:0;git add -A
