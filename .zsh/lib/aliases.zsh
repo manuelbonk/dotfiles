@@ -22,6 +22,7 @@ alias C='| xclip -selection c'
 
 alias pacupg='sudo pacman -Syu'
 alias pacin='sudo pacman -S'
+alias pacins='sudo pacman -U'
 alias pacre='sudo pacman -R'           # Remove the specified package(s), retaining its configuration(s) and required dependencies
 alias pacrem='sudo pacman -Rns'        # Remove the specified package(s), its configuration(s) and unneeded dependencies
 alias pacrep='pacman -Si'              # Display information about a given package in the repositories
