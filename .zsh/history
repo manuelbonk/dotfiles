@@ -1,2 +1,7 @@
 : 1405954816:0;cd dev/dotfiles
 : 1405954819:0;git add -A
+: 1405954823:0;git commit 
+: 1405954830:0;git push
+: 1405954844:0;git pull
+: 1405954858:0;git commit
+: 1405954864:0;git add -A
