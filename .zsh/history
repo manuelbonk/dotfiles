@@ -5,3 +5,10 @@
 : 1405954844:0;git pull
 : 1405954858:0;git commit
 : 1405954864:0;git add -A
+: 1405954877:0;git commit
+: 1405954888:0;cat ~/.zsh/history
+: 1405954896:0;git add -A
+: 1405954903:0;vim .zsh/lib/history.zsh
+: 1405954906:0;git add -A
+: 1405954908:0;git commit
+: 1405954916:0;git add -A
