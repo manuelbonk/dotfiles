@@ -3,6 +3,7 @@ export ZSH=~/.zsh
 export EDITOR="vim"
 export VISUAL="vim"
 export BROWSER="chromium"
+export R_LIBS_USER="/home/m/.Renviron"
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
