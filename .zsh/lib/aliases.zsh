@@ -47,4 +47,5 @@ alias scd'sudo systemctl disable'
 
 alias d='date +"%Y-%m-%d"'
 alias screenu0='screen /dev/ttyUSB0 115200'
-alias serial="sudo screen /dev/ttyUSB0 115200"
+alias serial='sudo screen /dev/ttyUSB0 115200'
+alias sudo='sudo '
