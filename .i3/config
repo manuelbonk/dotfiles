@@ -161,7 +161,7 @@ new_window pixel 2
 
 # class                 border  backgr  text    indicator
 client.focused          #CFCFCF #CFCFCF #000000 #CFCFCF
-client.focused_inactive #0000ff #858585 #080808 #404040
+client.focused_inactive #858585 #858585 #080808 #404040
 #client.focused_inactive #cfcfcf #cfcfcf #080808 #404040
 #client.focused_inactive #404040 #404040 #808080 #404040
 client.unfocused        #202020 #202020 #cfcfcf #404040

@@ -14,6 +14,7 @@ compinit -i
 autoload zmv
 
 PATH=$PATH:/home/m/dev/scripts:/home/m/.screenlayout
+export GOPATH=/home/m/dev/go
 
 set -o vi
 

@@ -114,11 +114,10 @@ au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+" case insensitive search by default
+set ignorecase
 " ctrp custom ignores
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
   \ 'file': '\.exe$\|\.so$\|\.dll\|\.beam$\|\.DS_Store$'
   \ }
-
-let g:erlangCheckFile = "~/.vim/bundle/vimerl/compiler/erlang_check_file.erl"
-let g:erlangHighlightErrors = 1
