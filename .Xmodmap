@@ -8,3 +8,6 @@ keysym o = o O odiaeresis Odiaeresis
 keysym u = u U udiaeresis Udiaeresis
 keysym s = s S ssharp
 keysym d = d D degree
+
+! natural scrolling
+pointer = 1 2 3 5 4 7 6 8 9 10 11 12

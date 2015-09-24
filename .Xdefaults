@@ -3,8 +3,11 @@ URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 URxvt.scrollBar: false
 
-URxvt*font: xft:Monaco:pixelsize=11
-URxvt*boldFont: xft:Monaco Bold:pixelsize=11
+URxvt*font: xft:PragmataPro:pixelsize=13
+!URxvt*boldFont: xft:Input Bold:pixelsize=11
+!URxvt.letterSpace: -4
+!URxvt*font: xft:Monaco:pixelsize=11
+!URxvt*boldFont: xft:Monaco Bold:pixelsize=11
 !
 ! invisibone by baskerville
 !
@@ -60,3 +63,5 @@ urxvt.depth: 8
 xterm*background: rgb:26/26/26
 xterm*foreground: rgb:A8/A8/A8
 xterm*faceName: Monaco:size=9:antialias=true
+!URxvt.transparent:true
+!URxvt:shading:20

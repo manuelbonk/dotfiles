@@ -1,27 +1,17 @@
+#lock screen
+"blurlock.py"
+	Mod2 + XF86Launch1
+
+
 # toggle mute
-# "amixer sset Master toggle"
-#"mute_toggle"
-"/usr/bin/pulseaudio-ctl mute"
-    m:0x0 + c:121
+"pulseaudio-ctl mute"
+	Mod2 + XF86AudioMute
 
 # decrease volume
-# "amixer set Master playback 1-"
-#"vol_down"
-"/usr/bin/pulseaudio-ctl down"
-    m:0x0 + c:122
+"pulseaudio-ctl down"
+	Mod2 + XF86AudioLowerVolume
+
 
 # increase volume
-# "amixer set Master playback 1+"
-#"vol_up"
-"/usr/bin/pulseaudio-ctl up"
-    m:0x0 + c:123
-
-# lock screen
-#"xscreensaver-command --lock"
-#   m:0x0 + c:156
-
-# toggle mic
-# "amixer set Capture 100% toggle"
-"/usr/bin/pulseaudio-ctl mute-input"
-   m:0x0 + c:198
-
+"pulseaudio-ctl up"
+	Mod2 + XF86AudioRaiseVolume

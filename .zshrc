@@ -50,10 +50,16 @@ man() {
     man "$@"
 }
 
+twitch() {
+	livestreamer --player 'mpv --cache 256' http://www.twitch.tv/$1 source;
+}
+
 # stock prompt
 # PS1="%{$fg[red]%}%n%{$reset_color%}%{$fg[white]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%} %{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%} > %{$reset_color%}"
 
+HOST=`cat /etc/hostname`
 # hipster prompt
+
 PS1="%{$fg[white]%}┌─[%{$reset_color%}%{$fg[red]%}%n%{$reset_color%}%{$fg[white]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}]─[%{$reset_color%}%{$fg[yellow]%}%~%{$reset_color%}%{$fg[white]%}]%{$reset_color%}
 %{$fg[white]%}└──╼ %{$reset_color%}"
 
