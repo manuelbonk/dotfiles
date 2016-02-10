@@ -32,7 +32,7 @@ alias pacreps='pacman -Ss'
 
 alias rmvunused='sudo pacman -Rns $(pacman -Qqtd)' # remove unused packages
 alias cf='echo $(($(ls -l | grep -v ^d| wc -l)-1))' # count files in a directory
-alias sshuttle='sshuttle --dns -vvr m@n.zfix.net 0/0'
+alias sshuttle='sshuttle --dns -vvr m@bonkfamily.dnsalias.org:10022 0/0'
 alias nfx='ssh -ND 11337 m@n.zfix.net'
 alias tsb='sudo tlp-stat -b'
 
@@ -51,3 +51,7 @@ alias d='date +"%Y-%m-%d"'
 alias screenu0='screen /dev/ttyUSB0 115200'
 alias serial='sudo screen /dev/ttyUSB0 115200'
 alias sudo='sudo '
+alias gig='find ./ -executable ! -path "./.git/*">>.gitignore'
+alias cdabr='cd ~/btsync/everywhere/t16/abrechnung/'
+alias dup='urxvt &'
+alias ttc='tty-clock -csf "%Y-%m-%d"'
