@@ -1,5 +1,3 @@
-" execute pathogen#infect()
-" execute pathogen#helptags()
 syntax on
 filetype plugin indent on
 
@@ -18,21 +16,10 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 set paste
 
 " toggle line numbering with F2
-set number
 nnoremap <F2> :set nonumber!<CR>
 
-" set theme solarized
-set background=dark
-colorscheme solarized
-" call togglebg#map("<F5>")
-
-noremap <F3> :Autoformat <CR><CR>
 
 set nocompatible
-
-" Initialize Pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
 
 " Enable syntax highlighting
 syntax on
@@ -44,6 +31,7 @@ color smyck
 " Add line numbers
 set number
 set ruler
+set cul
 
 " Set encoding
 set encoding=utf-8
@@ -87,15 +75,10 @@ set nofoldenable
 set backupdir=~/.vimbackup
 set directory=~/.vimbackup
 
-" NERDTree configuration
-let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
+set noswf		" no swap files
 
 " make uses real tabs
 au FileType make set noexpandtab
-
-" Erlang uses 4 spaces
-au FileType erlang set softtabstop=4 tabstop=4 shiftwidth=4
 
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set ft=ruby
