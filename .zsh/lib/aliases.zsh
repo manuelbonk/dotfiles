@@ -22,7 +22,6 @@ alias G='| grep'
 alias C='| xclip -selection c'
 
 alias pacupg='sudo pacman -Syu'
-alias paci='pacman -Si'
 alias pacin='sudo pacman -S'
 alias pacins='sudo pacman -U'
 alias pacre='sudo pacman -R'           # Remove the specified package(s), retaining its configuration(s) and required dependencies
@@ -33,7 +32,7 @@ alias pacreps='pacman -Ss'
 alias rmvunused='sudo pacman -Rns $(pacman -Qqtd)' # remove unused packages
 alias cf='echo $(($(ls -l | grep -v ^d| wc -l)-1))' # count files in a directory
 alias sshuttle='sshuttle --dns -vvr m@bonkfamily.dnsalias.org:10022 0/0'
-alias nfx='ssh -ND 11337 m@n.zfix.net'
+alias nfx='ssh -ND 11337 m@n.tomatensal.at'
 alias tsb='sudo tlp-stat -b'
 
 alias ta='tmux attach -t'

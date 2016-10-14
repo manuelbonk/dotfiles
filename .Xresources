@@ -1,9 +1,51 @@
-xterm*faceName: Source Code Pro:antialias=True:pixelsize=12
-xterm*scaleHeight: 0.9
-xterm*loginShell: true
-xterm*saveLines: 200
-xterm*termName: xterm-color
-xterm*background: rgb:00/00/00
-xterm*foreground: rgb:00/cc/00
-xterm*colorBDMode: true
-xterm*colorBD: rgb:fc/fc/fc
+!*fading:     40
+!*fadeColor:  #080808
+*background:  #080808
+*foreground:  #808080
+*color0:      #1a1a1a
+*color8:      #404040
+*color1:      #d75f5f
+*color9:      #EA8484
+*color2:      #87af5f
+*color10:     #C7F09F
+*color3:      #ffaf5f
+*color11:     #FFCC9A
+*color4:      #87afd7
+*color12:     #a5caef
+*color5:      #8787af
+*color13:     #A6A6DE
+*color6:      #5f8787
+*color14:     #69b2b2
+*color7:      #808080
+*color15:     #d7d7d7
+
+URxvt.url-select.launcher:   chromium
+URxvt.url-select.underline:  true
+URxvt.keysym.C-i:            perl:url-select:select_next
+URxvt.urgentOnBell:          true
+! copy and paste w/ shift + {c,v}
+URxvt.perl-ext-common:       default,clipboard,keyboard-select,selection-to-clipboard
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.borderless:            true
+URxvt.scrollBar:             false
+
+URxvt.font:					xft:PragmataPro:pixelsize=11:antialias=true
+URxvt.boldFont:				xft:PragmataPro:style=bold:pixelsize=10:antialias=true
+
+
+!URxvt.scrollstyle:           xterm
+XTerm*.allowBoldFonts : true
+XTerm*.bellIsUrgent   : true
+XTerm*.cutNewline     : true
+XTerm*.faceName       : PragmataPro
+XTerm*.faceSize       : 8
+XTerm*.fullscreen     : never
+XTerm*.internalBorder : 0
+XTerm*.renderFont     : true
+XTerm*.termName       : xterm-256color
+XTerm*.utf8           : always
+XTerm*.utf8Fonts      : always
+XTerm*.visualBell     : false
+XTerm*.visualBellLine : false
