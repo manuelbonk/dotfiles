@@ -69,4 +69,3 @@ hi Symbol               cterm=none ctermbg=none ctermfg=9           gui=none    
 hi Method               cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#F7F7F7
 hi Interpolation        cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#2EB5C1
 
-

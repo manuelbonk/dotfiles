@@ -4,14 +4,17 @@
 
 
 # toggle mute
-"pulseaudio-ctl mute"
+#"pulseaudio-ctl mute"
+"amixer -D pulse set Master 1+ toggle"
 	Mod2 + XF86AudioMute
 
 # decrease volume
-"pulseaudio-ctl down"
+#"pulseaudio-ctl down#"
+"amixer set Master playback 5-"
 	Mod2 + XF86AudioLowerVolume
 
 
 # increase volume
-"pulseaudio-ctl up"
+#"pulseaudio-ctl up"
+"amixer set Master playback 5+"
 	Mod2 + XF86AudioRaiseVolume
