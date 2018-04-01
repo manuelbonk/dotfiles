@@ -39,8 +39,8 @@ URxvt.boldFont:				xft:PragmataPro:style=bold:pixelsize=10:antialias=true
 XTerm*.allowBoldFonts : true
 XTerm*.bellIsUrgent   : true
 XTerm*.cutNewline     : true
-XTerm*.faceName       : PragmataPro
-XTerm*.faceSize       : 8
+XTerm*.faceName       : Iosevka
+XTerm*.faceSize       : 9
 XTerm*.fullscreen     : never
 XTerm*.internalBorder : 0
 XTerm*.renderFont     : true
