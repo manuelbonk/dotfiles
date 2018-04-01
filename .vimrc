@@ -84,7 +84,7 @@ au FileType make set noexpandtab
 au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set ft=ruby
 
 " md, markdown, and mk are markdown and define buffer-local preview
-au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+"au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
 
 " add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=javascript
@@ -104,3 +104,34 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
   \ 'file': '\.exe$\|\.so$\|\.dll\|\.beam$\|\.DS_Store$'
   \ }
+
+ execute pathogen#infect()
+ " should markdown preview get shown automatically upon opening markdown buffer
+let g:livedown_autorun = 1
+
+" should the browser window pop-up upon previewing
+let g:livedown_open = 1
+
+" the port on which Livedown server will run
+let g:livedown_port = 1337
+
+" the browser to use
+let g:livedown_browser = "chromium"
+
+" how many words are in the current line?
+function! WordCount()
+   let s:old_status = v:statusmsg
+   let position = getpos(".")
+   exe ":silent normal g\<c-g>"
+   let stat = v:statusmsg
+   let s:word_count = 0
+   if stat != '--No lines in buffer--'
+     let s:word_count = str2nr(split(v:statusmsg)[11])
+     let v:statusmsg = s:old_status
+   end
+   call setpos('.', position)
+   return s:word_count
+endfunction
+
+":set statusline=wc:%{WordCount()}
+
