@@ -3,11 +3,17 @@
 	name = Manuel Bonk
 	signingkey = 283E45C8D59E264CD700880DFFB47B36E23F399C
 [alias]
-	st = status
-	co = checkout
-	ca = commit --amend
-	suir = submodule update --init --recursive
-	fa = fetch --all --prune
-	fft = merge --ff-only
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+        fft = merge --ff-only @{u}
+        ca = commit --amend
+        fa = fetch --all --prune
+        suir = submodule update --init --recursive
+        pf = push --force-with-lease
+        fixup = commit --amend -C HEAD
+[help]
+        autocorrect = 1
 [commit]
-	gpgsign = true
+        gpgsign = true
