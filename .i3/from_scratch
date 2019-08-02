@@ -17,12 +17,12 @@ set $right l
 set $term alacritty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
-set $menu BEMENU_BACKEND=wayland bemenu -p "" -i --tf "0xff0000" --ff "0xff0000" --nf "0xff0000" --hf "0xff0000"--sf "0xff0000" --scf "0xff0000"
+set $menu dmenu
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
@@ -56,12 +56,6 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #   }
 #
 #
-input "2:14:ETPS/2_Elantech_Touchpad" {
-    dwt enabled
-    tap enabled
-    natural_scroll enabled
-    middle_emulation enabled
-}
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
@@ -238,4 +232,3 @@ bar {
     }
 }
 
-include /etc/sway/config.d/*
