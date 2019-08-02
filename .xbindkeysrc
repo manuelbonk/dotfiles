@@ -1,20 +1,23 @@
-#lock screen
-"blurlock.py"
-	Mod2 + XF86Launch1
-
-
 # toggle mute
-#"pulseaudio-ctl mute"
-"amixer -D pulse set Master 1+ toggle"
-	Mod2 + XF86AudioMute
+#"amixer -D pulse set Master 1+ toggle"
+"pulseaudio-ctl mute"
+	XF86AudioMute
 
 # decrease volume
-#"pulseaudio-ctl down#"
-"amixer set Master playback 5-"
-	Mod2 + XF86AudioLowerVolume
+#"amixer set Master playback 5-"
+"pulseaudio-ctl down"
+	XF86AudioLowerVolume
 
 
 # increase volume
-#"pulseaudio-ctl up"
-"amixer set Master playback 5+"
-	Mod2 + XF86AudioRaiseVolume
+#"amixer set Master playback 5+"
+"pulseaudio-ctl up"
+	XF86AudioRaiseVolume
+
+# decrease brightness
+"brightnessctl s 5%-"
+	F8
+
+# increase brightness
+"brightnessctl s 5%+"
+	F9

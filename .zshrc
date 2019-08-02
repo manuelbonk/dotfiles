@@ -15,8 +15,8 @@ compinit -i
 
 autoload zmv
 
-PATH=$PATH:/home/m/scripts:/home/m/.screenlayout:/home/m/.gem/ruby/2.4.0/bin:/opt/makeself/
 export GOPATH=/home/m/dev/go
+PATH=$PATH:/home/m/scripts:/home/m/projects/scripts:/home/m/.screenlayout:/home/m/.gem/ruby/2.5.0/bin:/opt/piavpn/bin/:/opt/makeself/
 
 set -o vi
 

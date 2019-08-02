@@ -13,8 +13,6 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 " should make powerline look more fancy, but doesn't work
 " let g:Powerline_symbols = 'fancy'
 
-set paste
-
 " toggle line numbering with F2
 nnoremap <F2> :set nonumber!<CR>
 
