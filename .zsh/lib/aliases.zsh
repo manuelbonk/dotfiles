@@ -14,6 +14,7 @@ alias ls='ls --color=auto'
 alias lc='wc -l'
 alias cx='chmod +x'
 alias pdf='okular'
+alias free='free -ms 1'
 alias grep='grep -i --color=auto'
 
 alias pacupg='sudo pacman -Syu'
