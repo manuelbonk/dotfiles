@@ -23,9 +23,6 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
-" Colorscheme see https://github.com/hukl/Smyck-Color-Scheme
-color smyck
-
 " Add line numbers
 set number
 set ruler
@@ -63,9 +60,6 @@ set hlsearch
 " Map Ctrl+l to clear highlighted searches
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
-" Highlight characters behind the 80 chars margin
-:au BufWinEnter * let w:m2=matchadd('ColumnMargin', '\%>80v.\+', -1)
-
 " Disable code folding
 set nofoldenable
 
@@ -87,7 +81,7 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set f
 " add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=javascript
 
-" au BufRead,BufNewFile *.txt call s:setupWrapping()
+au BufRead,BufNewFile *.txt call s:setupWrapping()
 
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
@@ -102,15 +96,6 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.eunit$',
   \ 'file': '\.exe$\|\.so$\|\.dll\|\.beam$\|\.DS_Store$'
   \ }
-
- " should markdown preview get shown automatically upon opening markdown buffer
-let g:livedown_autorun = 1
-
-" should the browser window pop-up upon previewing
-let g:livedown_open = 1
-
-" the browser to use
-let g:livedown_browser = "chromium"
 
 " how many words are in the current line?
 function! WordCount()
@@ -127,5 +112,5 @@ function! WordCount()
    return s:word_count
 endfunction
 
-":set statusline=wc:%{WordCount()}
-
+au BufRead,BufNewFile *.pde set filetype=arduino
+au BufRead,BufNewFile *.ino set filetype=arduino
