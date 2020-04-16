@@ -31,8 +31,8 @@ URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.borderless:            true
 URxvt.scrollBar:             false
 
-URxvt.font:					xft:PragmataPro:pixelsize=11:antialias=true
-URxvt.boldFont:				xft:PragmataPro:style=bold:pixelsize=10:antialias=true
+URxvt.font:					xft:Iosevka:pixelsize=11 !:antialias=true
+URxvt.boldFont:				xft:Iosevka:style=bold:pixelsize=10:antialias=true
 
 
 !URxvt.scrollstyle:           xterm

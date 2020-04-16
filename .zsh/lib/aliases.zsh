@@ -14,6 +14,7 @@ alias ls='ls --color=auto'
 alias lc='wc -l'
 alias cx='chmod +x'
 alias pdf='okular'
+alias free='free -ms 1'
 alias grep='grep -i --color=auto'
 
 alias pacupg='sudo pacman -Syu'
@@ -59,3 +60,5 @@ alias kx='kubectx'
 alias m='molecule'
 alias sprunge="curl -s -F 'sprunge=<-' http://sprunge.us | xclip -sel c"
 alias cat='cat -v'
+alias flux='xflux -l 11.576124'
+alias p='pass'

@@ -1,5 +1,5 @@
 ! Map umlauts to RIGHT ALT + <key>
-keycode 107 = Mode_switch
+keycode 108 = Mode_switch
 keycode 135 = Mode_switch
 keysym e = e E EuroSign
 keysym c = c C cent
