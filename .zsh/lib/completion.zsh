@@ -72,3 +72,6 @@ if [ "x$COMPLETION_WAITING_DOTS" = "xtrue" ]; then
   zle -N expand-or-complete-with-dots
   bindkey "^I" expand-or-complete-with-dots
 fi
+
+# don't complete (la)tex(mk) helper files
+zstyle ':completion:*:*:vim:*' file-patterns '^*.(aux|log|pdf|fdb_latexmk|fls|log|nav|out|snm|toc|vrb):source-files' '*:all-files'

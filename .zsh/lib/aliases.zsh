@@ -20,7 +20,7 @@ alias pacupg='sudo pacman -Syu'
 alias pacin='sudo pacman -S'
 alias pacins='sudo pacman -U'
 alias pacre='sudo pacman -R'           # Remove the specified package(s), retaining its configuration(s) and required dependencies
-alias pacrem='sudo pacman -Rns'        # Remove the specified package(s), its configuration(s) and unneeded dependencies
+alias pacrem='sudo pacman -Rnsc'        # Remove the specified package(s), its configuration(s) and unneeded dependencies
 alias pacrep='pacman -Si'              # Display information about a given package in the repositories
 alias pacreps='pacman -Ss'
 
@@ -39,7 +39,6 @@ alias sco'sudo systemctl stop'
 alias sce'sudo systemctl enable'
 alias scd'sudo systemctl disable'
 
-alias d='date +"%Y-%m-%d"'
 alias serial='sudo screen /dev/ttyUSB0 115200'
 alias sudo='sudo '
 alias gig='find ./ -executable ! -path "./.git/*">>.gitignore'
@@ -53,3 +52,10 @@ alias gk='gitk --all'
 alias v='vagrant'
 alias g='git'
 alias ap='ansible-playbook'
+alias a='ansible'
+alias d='docker'
+alias k='kubectl'
+alias kx='kubectx'
+alias m='molecule'
+alias sprunge="curl -s -F 'sprunge=<-' http://sprunge.us | xclip -sel c"
+alias cat='cat -v'
