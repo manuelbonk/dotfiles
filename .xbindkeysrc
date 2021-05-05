@@ -21,3 +21,6 @@
 # increase brightness
 "brightnessctl s 5%+"
 	F9
+
+"xmodmap ~/.Xmodmap"
+	F12

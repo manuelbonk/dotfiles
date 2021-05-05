@@ -2,7 +2,7 @@ export ZSH=~/.zsh
 
 export EDITOR="vim"
 export VISUAL="vim"
-export BROWSER="chromium"
+export BROWSER="firefox"
 export VAGRANT_DEFAULT_PROVIDER="libvirt"
 #export GPG_TTY="$(tty)"
 
@@ -32,7 +32,7 @@ x () {
          *.tar)      tar xvf $1      ;;
          *.tbz2)      tar xvjf $1      ;;
          *.tgz)      tar xvzf $1      ;;
-         *.zip)      7z e $1      ;;
+         *.zip)      unzip $1      ;;
          *.Z)      uncompress $1   ;;
 		 *.7z)		7z e $1 ;;
          *)         echo "'$1' cannot be extracted via extract()" ;;

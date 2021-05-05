@@ -4,20 +4,8 @@ filetype plugin indent on
 set t_Co=256
 let g:solarized_termcolors=256
 
-
-" Powerline
-set nocompatible   " Disable vi-compatibility
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
-
-" should make powerline look more fancy, but doesn't work
-" let g:Powerline_symbols = 'fancy'
-
 " toggle line numbering with F2
 nnoremap <F2> :set nonumber!<CR>
-
-
-set nocompatible
 
 " Enable syntax highlighting
 syntax on
@@ -80,8 +68,6 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set f
 
 " add json syntax highlighting
 au BufNewFile,BufRead *.json set ft=javascript
-
-au BufRead,BufNewFile *.txt call s:setupWrapping()
 
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
